@@ -1,18 +1,52 @@
-# Privacy Policy
+Privacy Policy: LinkedIn Analyser
 
-This Chrome extension collects and processes publicly available information from LinkedIn pages, limited to employee names and current job titles when the user activates the extension.
+Effective Date: January 31, 2026
+1. Introduction
 
-## Data Collection and Usage
-The extension only accesses data on the active LinkedIn page as requested by the user. Collected information is stored locally within the user's browser for display and export purposes.
+LinkedIn Analyser ("we," "us," or "the Extension") provides professional profile insights directly within your browser. We value your privacy and are committed to transparency regarding any data accessed during your use of the Extension.
+2. Information We Access and Collect
 
-## Data Sharing
-No data is transmitted to external servers or shared with third parties.
+To provide profile analysis, the Extension accesses the following information:
 
-## Personal Data
-The extension does not collect sensitive personal information, browsing history, or data from websites outside of LinkedIn.
+    Website Content: The Extension reads professional information visible on LinkedIn profile pages (e.g., job titles, skills, and experience) only when the user initiates an analysis.
 
-## User Control
-All actions are initiated by the user, and stored data can be cleared by removing the extension.
+    User-Provided Data: If the Extension requires an API key (e.g., OpenAI) or user preferences, these are provided voluntarily by the user.
 
-## Contact
-For questions regarding this privacy policy, contact: your-email@example.com
+3. How We Use Your Data
+
+In compliance with the Google Chrome Web Store User Data Policy, we declare the following:
+
+    Single Purpose: Data is used exclusively to provide professional analysis and insights to the user.
+
+    No Remote Storage: All analysis is performed locally or via direct API calls. We do not store your data, LinkedIn profile details, or browsing history on any external servers owned by the developer.
+
+    No Sale of Data: We never sell, rent, or trade user data to third parties, data brokers, or advertising networks.
+
+4. Storage and Security
+
+    Local Storage: User settings and temporary analysis results are stored using the chrome.storage API. This data remains on your local device.
+
+    Encryption: Any data transmitted (e.g., to an AI analysis model) is sent via secure HTTPS connections.
+
+5. Permissions Justification
+
+The Extension requests the following permissions to function:
+
+    hostPermissions (linkedIn.com): Necessary to read the professional profile data you wish to analyze.
+
+    storage: Necessary to save your preferences and history locally on your machine.
+
+    scripting: Necessary to inject the analysis overlay onto the LinkedIn interface.
+
+6. Limited Use Disclosure
+
+LinkedIn Analyser's use and transfer of information received from Google APIs to any other app will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements.
+7. Contact
+
+For any questions regarding this policy or the Extension's data practices, please contact:
+
+    Developer: Vinnie Itani
+
+    Email: vinnie.itan@nxtgenit.co.uk
+
+    Repository: [[Link to your GitHub Repo]](https://github.com/NxtGenDevVI/linkedin-analyser-privacy)
